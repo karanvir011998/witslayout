@@ -7,6 +7,7 @@ export const Contain = styled.div`
   background-position: center;
   background-size: cover;
   padding-top: 4vh;
+  padding-left: 2vw;
 `;
 export const Div = styled.div`
   i {
@@ -25,7 +26,7 @@ export const NavIcon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100% - 80%);
+  width: calc(100% - 75%);
 `;
 
 export const A = styled.a`

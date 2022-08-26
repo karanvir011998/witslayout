@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import { Contain } from "./Components/HeaderStyle";
 import Middle from "./Components/Middle";
 import Network from "./Components/Network";
+import Solutions from "./Components/Solutions";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Middle />
       <Network />
+      <Solutions />
     </Contain>
   );
 }

@@ -6,6 +6,16 @@ import {
   RightNumbers,
   LeftImage,
   LeftImg,
+  OurnetText,
+  Tellus,
+  LeftNumup,
+  RightheadDesc,
+  Fivehundredkwrapper,
+  Fivek,
+  Lineofcode,
+  WrapperStatus,
+  Fivehundredkwrapper65,
+  MainRightDiv,
 } from "./NetworkStyle";
 
 function Network() {
@@ -14,18 +24,40 @@ function Network() {
       <LeftImage>
         <LeftImg src="./images/networkdivimg.png" alt="networks" />
       </LeftImage>
-      <LeftNumbers>
-        <p>Let us tell a story of</p>
-        <OurNum>Our Numbers</OurNum>
-      </LeftNumbers>
-      <RightNumbers>
-        <Righthead>
-          When you see our numbers, you'll know why we're the best.
-        </Righthead>
-        We're a fastest growing community working hard to make things happen.
-        We've got a lot of hands-on cumulative experience and a good amount of
-        fire under our tails, though we are young.
-      </RightNumbers>
+      <OurnetText>
+        <LeftNumup>
+          <LeftNumbers>
+            <Tellus>Let us tell a story of</Tellus>
+            <OurNum>Our Numbers</OurNum>
+          </LeftNumbers>
+        </LeftNumup>
+        <MainRightDiv>
+          <RightNumbers>
+            <Righthead>
+              When you see our numbers, you'll know why we're the best.
+            </Righthead>
+            <RightheadDesc>
+              We're a fastest growing community working hard to make things
+              happen. We've got a lot of hands-on cumulative experience and a
+              good amount of fire under our tails, though we are young.
+            </RightheadDesc>
+          </RightNumbers>
+          <WrapperStatus>
+            <Fivehundredkwrapper>
+              <Fivek>500k +</Fivek>
+              <Lineofcode>Line of code</Lineofcode>
+            </Fivehundredkwrapper>
+            <Fivehundredkwrapper>
+              <Fivek>140 +</Fivek>
+              <Lineofcode>Team Members</Lineofcode>
+            </Fivehundredkwrapper>
+            <Fivehundredkwrapper65>
+              <Fivek>65 +</Fivek>
+              <Lineofcode>Completed Projects</Lineofcode>
+            </Fivehundredkwrapper65>
+          </WrapperStatus>
+        </MainRightDiv>
+      </OurnetText>
     </OurNetwork>
   );
 }

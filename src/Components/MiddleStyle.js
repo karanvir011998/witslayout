@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Div2 = styled.div`
-  padding: 5vw 4.5vw;
+  padding: 5vw 4.5vw 0 6.5vw;
 `;
 
 export const Imagewarpper = styled.div``;
@@ -51,7 +51,7 @@ export const FollowUSWrapper = styled.div`
   font-size: clamp(1.2rem, 1.3vw, 20rem);
 `;
 export const FollowUS = styled.div`
-  margin-right: 0.3vw;
+  margin-right: 0.4vw;
   font-weight: 300;
 `;
 
