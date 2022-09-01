@@ -6,7 +6,15 @@ import {
   Wehave,
   Solbox,
   Lookingfor,
+  Solutionsdata,
+  GradiantLine,
+  Ques,
+  SoldataWrapper,
+  BodyData,
+  Arrowdown,
+  Data,
 } from "./SolutionsStyle";
+import datas from "./data.json";
 function Solutions() {
   return (
     <Solution>
@@ -17,16 +25,22 @@ function Solutions() {
           <SolProblem>Solutions to Your Problems</SolProblem>
           <Solbox>
             <Lookingfor>What are you looking for?</Lookingfor>
-            <div></div>
-            <div>Question 1 of 2</div>
-            <div className="main">
-              <div className="sub">1</div>
-              <div className="sub">2</div>
-              <div className="sub">3</div>
-              <div className="sub">4</div>
-              <div className="sub">5</div>
-              <div className="sub">6</div>
-            </div>
+            <GradiantLine></GradiantLine>
+            <Ques>Question 1 of 2</Ques>
+            <SoldataWrapper>
+              <Solutionsdata>
+                {datas.map((data) => {
+                  return (
+                    <BodyData>
+                      <Data className="data">{data.body}</Data>
+                      <Arrowdown>
+                        <i className="fa-solid fa-angle-right"></i>
+                      </Arrowdown>
+                    </BodyData>
+                  );
+                })}
+              </Solutionsdata>
+            </SoldataWrapper>
           </Solbox>
         </SolHead>
       </SolHeadWrapper>
