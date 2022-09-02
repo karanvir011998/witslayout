@@ -12,7 +12,7 @@ import {
   FollowUSWrapper,
   SocialMedia,
   ToprightImage,
-} from "./MiddleStyle";
+} from "../styles/MiddleStyle";
 
 function Middle() {
   return (

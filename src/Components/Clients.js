@@ -19,7 +19,7 @@ import {
   Designwork,
   Moonverse,
   Payu,
-} from "./ClientsStyle";
+} from "../styles/ClientsStyle";
 function Clients() {
   return (
     <Client>

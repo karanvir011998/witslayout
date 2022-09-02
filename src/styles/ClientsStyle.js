@@ -17,7 +17,6 @@ export const Client = styled.div`
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 5vw 0 2vw; */
 `;
 
 export const ClientPeraHead = styled.p`
@@ -32,7 +31,6 @@ export const ClientHeading = styled.h1`
   font-size: clamp(2.5rem, 3.7vw, 4.1rem);
   height: clamp(2.1rem, 2.8vw, 5rem);
   text-align: center;
-  /* height: clamp(2.5rem, 4vw, 5rem); */
   width: fit-content;
   border-bottom: 1vw solid #f9c51c;
 `;
@@ -65,7 +63,6 @@ export const FirstImgeDiv = styled.div`
   justify-content: center;
   align-items: center;
   column-gap: clamp(1rem, 7vw, 10rem);
-  /* padding: 2vw 0; */
   box-sizing: border-box;
 `;
 

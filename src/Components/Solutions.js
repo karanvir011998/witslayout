@@ -13,7 +13,7 @@ import {
   BodyData,
   Arrowdown,
   Data,
-} from "./SolutionsStyle";
+} from "../styles/SolutionsStyle";
 import datas from "./data.json";
 function Solutions() {
   return (

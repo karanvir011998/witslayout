@@ -10,7 +10,7 @@ import {
   Li,
   Btn,
   Button,
-} from "./HeaderStyle";
+} from "../styles/HeaderStyle";
 
 function Header() {
   return (

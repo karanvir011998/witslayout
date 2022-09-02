@@ -18,7 +18,7 @@ import {
   Designers,
   Founders,
   Developer,
-} from "./OurTeamStyle";
+} from "../styles/OurTeamStyle";
 
 const OurTeam = () => {
   return (

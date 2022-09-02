@@ -27,7 +27,7 @@ import {
   Null,
   DesWrapper,
   Des,
-} from "./TestimonialsStyle";
+} from "../styles/TestimonialsStyle";
 
 function Testimonials() {
   return (

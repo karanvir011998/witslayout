@@ -1,55 +1,52 @@
 import {
-  Headings,
-  SmallHeading,
-  MainHeading,
-  Border,
-  PeraDiv,
-  Pera,
-  ArrowImgs,
-  Lefting,
-  Righting,
+  Head,
+  Heading,
+  HeadBlog,
+  Paragraph,
+  Para,
+  Arrows,
+  Leftimage,
+  Rightimage,
   AllImgs,
   Blockchain,
-  Commercial,
+  CommercialImage,
   WilBlog,
   Content,
   HeadingWits,
-  PeraWits,
+  ParaWits,
   HeadingBlock,
-  HeadingCommerce,
   Blog,
-} from "./OurBlogStyle";
+  Commercial,
+} from "../styles/OurBlogStyle";
 function OurBlog() {
   return (
     <Blog>
-      <Headings>
-        <SmallHeading>Our Thoughts in</SmallHeading>
-        <MainHeading>Our Blog</MainHeading>
-        <Border></Border>
-
-        <PeraDiv>
-          <Pera>
+      <Head>
+        <Heading>Our Thoughts in</Heading>
+        <HeadBlog>Our Blog</HeadBlog>
+        <Paragraph>
+          <Para>
             We're here to make your thoughts on tech a little more… thought-ful.
-          </Pera>
-          <ArrowImgs>
-            <Lefting src="./images/leftarrow.png" alt="leftarrow" />
-            <Righting src="./images/rightarrow.png" alt="leftarrow" />
-          </ArrowImgs>
-        </PeraDiv>
-      </Headings>
+          </Para>
+          <Arrows>
+            <Leftimage src="./images/leftarrow.png" alt="leftarrow" />
+            <Rightimage src="./images/rightarrow.png" alt="leftarrow" />
+          </Arrows>
+        </Paragraph>
+      </Head>
       <AllImgs>
         <WilBlog src="./images/wilblog.png" alt="wilblog" />
         <Content>
           <HeadingWits>WIL Blog</HeadingWits>
-          <PeraWits>
+          <ParaWits>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat
-          </PeraWits>
+          </ParaWits>
         </Content>
         <Blockchain src="./images/blockchain.png" alt="wilblog" />
         <HeadingBlock>Block Chain</HeadingBlock>
-        <Commercial src="./images/commercial.png" alt="wilblog" />
-        <HeadingCommerce>Commercial</HeadingCommerce>
+        <CommercialImage src="./images/commercial.png" alt="wilblog" />
+        <Commercial>Commercial</Commercial>
       </AllImgs>
     </Blog>
   );

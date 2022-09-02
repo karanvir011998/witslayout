@@ -9,6 +9,7 @@ import Testimonials from "./Components/Testimonials";
 import OurBlog from "./Components/OurBlog";
 import OurTeam from "./Components/OurTeam";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <Contain>
@@ -16,11 +17,12 @@ function App() {
       <Middle />
       <Network />
       <Solutions />
-      <Clients></Clients>
+      <Clients />
       <Testimonials></Testimonials>
-      <OurBlog></OurBlog>
-      <OurTeam></OurTeam>
-      <Contact></Contact>
+      <OurBlog />
+      <OurTeam />
+      <Contact />
+      <Footer />
     </Contain>
   );
 }

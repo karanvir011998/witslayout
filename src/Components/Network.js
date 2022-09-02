@@ -16,7 +16,7 @@ import {
   WrapperStatus,
   Fivehundredkwrapper65,
   MainRightDiv,
-} from "./NetworkStyle";
+} from "../styles/NetworkStyle";
 
 function Network() {
   return (
