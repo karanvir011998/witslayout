@@ -7,7 +7,7 @@ export const ContactUs = styled.div`
 export const Content = styled.div`
   padding: 2vh 8vw 0 10vw;
   border: 1px solid black;
-  width: 100%;
+  /* width: 100%; */
 `;
 
 export const Head = styled.p`

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const Contain = styled.div`
-  background-image: url(/images/back-img.png);
-  height: 80vh;
+export const BG = styled.div`
+  background-image: url(/images/background.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

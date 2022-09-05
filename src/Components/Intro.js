@@ -12,11 +12,11 @@ import {
   FollowUSWrapper,
   SocialMedia,
   ToprightImage,
-} from "../styles/MiddleStyle";
+} from "../styles/IntroStyle";
 
-function Middle() {
+function Intro() {
   return (
-    <div>
+    <>
       <Div2>
         <Heading>
           We're not just IT. We're a
@@ -48,8 +48,8 @@ function Middle() {
         src="./images/group.png"
         alt="toprightlogo"
       ></ToprightImage>
-    </div>
+    </>
   );
 }
 
-export default Middle;
+export default Intro;
