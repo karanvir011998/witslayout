@@ -26,6 +26,17 @@ export const BtnTellus = styled.button`
   border: none;
   padding: 12px 5px 12px 5px;
 `;
+export const MiddleBtn = styled.div`
+  width: fit-content;
+  &:hover {
+    ${BtnRightArrow} {
+      display: none;
+    }
+    ${BtnTellus} {
+      width: 12.6vw;
+    }
+  }
+`;
 
 export const Heading = styled.h1`
   font-weight: 800;
@@ -43,11 +54,9 @@ export const Heading2 = styled.p`
   font-size: clamp(0.8rem, 1.3vw, 20rem);
   line-height: 1.7;
 `;
-export const MiddleBtn = styled.div``;
 export const FollowUSWrapper = styled.div`
   padding: 70px 0;
   display: flex;
-  /* width: clamp(2rem, 2.5vw, 5rem); */
   font-size: clamp(1.2rem, 1.3vw, 20rem);
 `;
 export const FollowUS = styled.div`

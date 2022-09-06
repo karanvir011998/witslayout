@@ -4,6 +4,7 @@ export const Full = styled.div`
   background-color: black;
   height: fit-content;
   padding-bottom: 3vw;
+  border-radius: 0 14vw 0 0;
 `;
 
 export const Ftr = styled.div`
@@ -131,8 +132,8 @@ export const RightBottom = styled.div`
 `;
 
 export const Sub = styled.div`
-  /* margin: 6vw 3vw 0 9vw; */
   font-size: 2vw;
+  width: 18vw;
   font-weight: 600;
 `;
 
@@ -140,12 +141,8 @@ export const Search = styled.div`
   margin: 2vw 0;
   padding: 0.5vw;
   display: flex;
-  /* justify-content: center; */
   background-color: white;
-  /* width: 18vw;
-   */
   width: fit-content;
-  /* font-weight: 500; */
 `;
 export const Email = styled.img`
   width: 1.5vw;
@@ -155,14 +152,15 @@ export const Input = styled.input`
   padding: 0 1vw 0 0.2vw;
   width: 8.4vw;
   border: none;
+  font-size: 1.1vw;
 `;
 
 export const Btn = styled.button`
   padding: 0.4vw 0.3vw;
-  /* border: none; */
   width: 5.5vw;
   border: none;
   background-color: #f9c51c;
+  font-size: 1vw;
 `;
 
 export const EndFtr = styled.div`

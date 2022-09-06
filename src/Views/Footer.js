@@ -42,7 +42,6 @@ import {
   Startftr,
   Full,
 } from "../styles/FooterStyle";
-// import { FollowUS } from "../styles/IntroStyle";
 function Footer() {
   return (
     <Full>

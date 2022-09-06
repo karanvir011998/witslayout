@@ -18,7 +18,6 @@ import datas from "./data.json";
 function Solutions() {
   return (
     <Solution>
-      {/* <Image src="./images/solutionimage.png" /> */}
       <SolHeadWrapper>
         <SolHead>
           <Wehave> We have got</Wehave>
@@ -46,7 +45,6 @@ function Solutions() {
       </SolHeadWrapper>
     </Solution>
   );
-  //   <Solution></Solution>;
 }
 
 export default Solutions;

@@ -77,7 +77,6 @@ export const Profile = styled.div`
   background: #f1f1f1;
   border: 2px solid rgba(29, 46, 136, 0.5);
   border-radius: 16px;
-  /* width: calc(100% - 34%); */
   width: calc(100% - 34%);
   height: calc(100% - 56%);
   display: flex;
@@ -86,13 +85,6 @@ export const Profile = styled.div`
   margin: 5vw 0 0 0;
   position: relative;
 `;
-
-// export const Comma = styled.img`
-//   position: absolute;
-//   top: -2.4vw;
-//   left: 30.5vw;
-//   width: clamp(1rem, 9.5vw, 20rem);
-// `;
 
 export const OuterDiv = styled.div`
   display: flex;

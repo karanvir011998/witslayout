@@ -20,6 +20,8 @@ export const HeadBlog = styled.h1`
   font-weight: 700;
   margin: 0.4vw 0 0 0;
   height: clamp(1.7rem, 3.2vw, 4.5rem);
+  border-bottom: 0.781vw solid #f9c51c;
+  width: clamp(9rem, 16vw, 20rem);
 `;
 
 export const Paragraph = styled.div`
@@ -50,7 +52,6 @@ export const Rightimage = styled.img`
   width: calc(100% - 87%);
 `;
 
-// imgs
 export const AllImgs = styled.div`
   display: grid;
   grid-template-areas: "main blockchain" "main commercial";

@@ -6,7 +6,6 @@ export const BG = styled.div`
   background-position: center;
   background-size: cover;
   padding-top: 4vh;
-  padding-left: 2vw;
 `;
 export const Div = styled.div`
   i {
@@ -18,7 +17,6 @@ export const Div = styled.div`
 export const Navbar = styled.div`
   display: flex;
   align-items: center;
-  /* margin: 0 1.5vw 0 5vw; */
 `;
 
 export const NavIcon = styled.div`
@@ -30,6 +28,9 @@ export const NavIcon = styled.div`
 
 export const A = styled.a`
   text-decoration: none;
+  &:hover {
+    border-bottom: 0.2vw solid red;
+  }
 `;
 
 export const Img = styled.img`
@@ -44,6 +45,24 @@ export const Ul = styled.ul`
   column-gap: 1.5vw;
 `;
 
+export const About = styled.ul`
+  list-style-type: none;
+  color: #1d1d1d;
+  margin: 0 0.5vw;
+  font-size: clamp(0.6rem, 1.1vw, 1.3rem);
+  font-weight: 600;
+`;
+export const Listhover = styled.li`
+  display: none;
+`;
+
+export const Services = styled.ul`
+  list-style-type: none;
+  color: #1d1d1d;
+  margin: 0 0.5vw;
+  font-size: clamp(0.6rem, 1.1vw, 1.3rem);
+  font-weight: 600;
+`;
 export const Li = styled.li`
   list-style-type: none;
   color: #1d1d1d;
@@ -61,4 +80,7 @@ export const Button = styled.button`
   font-size: clamp(0.6rem, 1.1vw, 1.3rem);
   padding: 1.2vh 1.5vw;
   font-weight: 600;
+  &:hover {
+    border: 1px solid black;
+  }
 `;

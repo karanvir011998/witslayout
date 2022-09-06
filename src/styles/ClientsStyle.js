@@ -13,7 +13,7 @@ export const ClientWrap = styled.div`
 `;
 
 export const Client = styled.div`
-  margin: 10vw 0 0 5vw;
+  margin: 10vw 0 10vw 5vw;
   display: inline-flex;
   flex-direction: column;
   align-items: center;

@@ -23,7 +23,7 @@ export const Got = styled.p`
 
 export const Contact = styled.h1`
   border-bottom: 0.8vw solid #f9c51c;
-  height: 3.65vw;
+  height: 2.65vw;
   width: fit-content;
   color: rgba(29, 29, 29, 1);
   font-weight: 700;
@@ -203,14 +203,14 @@ export const Desc = styled.p`
 export const WholeSection = styled.div`
   margin: 2vw 0 0 0;
   display: flex;
-  justify-content: space-between;
   width: calc(100% - 5%);
+  gap: 1.5vw;
 `;
 
 export const WhatSection = styled.div`
   border: 0.1vw solid #000000;
   display: flex;
-  width: calc(100% - 53%);
+  width: calc(100% - 43%);
   align-items: center;
   justify-content: center;
   padding: 0.89vw 4.39vw 0.89vw 4.39vw;
@@ -220,16 +220,19 @@ export const WhatsApp = styled.img`
   width: clamp(0.8rem, 1.9vw, 10rem);
 `;
 
-export const What = styled.p`
+export const What = styled.a`
+  text-decoration: none;
+
   font-size: clamp(0.4rem, 1.22vw, 5rem);
   font-weight: 600;
   margin: 0 0 0 0.8vw;
+  color: black;
 `;
 
 export const CalSection = styled.div`
   border: 0.1vw solid #000000;
   display: flex;
-  width: calc(100% - 53%);
+  width: calc(100% - 43%);
   align-items: center;
   justify-content: center;
   padding: 0.89vw 4.39vw 0.89vw 4.39vw;
@@ -239,8 +242,10 @@ export const Calendly = styled.img`
   width: clamp(0.8rem, 1.9vw, 10rem);
 `;
 
-export const Cal = styled.p`
+export const Cal = styled.a`
+  text-decoration: none;
   font-size: clamp(0.4rem, 1.22vw, 5rem);
   font-weight: 600;
   margin: 0 0 0 0.8vw;
+  color: black;
 `;

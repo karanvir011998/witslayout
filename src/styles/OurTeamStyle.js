@@ -18,7 +18,7 @@ export const Meet = styled.div`
 
 export const Our = styled.div`
   width: 16.667vw;
-  height: 3.841vw;
+  height: 2.841vw;
   font-weight: 700;
   font-size: 3.516vw;
   line-height: 4.492vw;

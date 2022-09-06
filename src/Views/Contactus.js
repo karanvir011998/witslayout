@@ -1,5 +1,4 @@
 import React from "react";
-// import { Attachment } from "../styles/ContactStyle";
 import {
   Contactuss,
   LeftContact,
@@ -60,6 +59,8 @@ function Contactus() {
             <Interested>I’m interested in....</Interested>
             <Select>
               <Option>All Services</Option>
+              <Option>Contact</Option>
+              <Option>About Us</Option>
             </Select>
             <Field>
               <Input type="text" placeholder="Your name"></Input>
@@ -91,11 +92,13 @@ function Contactus() {
             <WholeSection>
               <WhatSection>
                 <WhatsApp src="../images/whatsapp.png" alt="whatsapp" />
-                <What>Whatsapp</What>
+                <What href="//api.whatsapp.com/send?phone=918437333427&text=HELLO">
+                  Whatsapp
+                </What>
               </WhatSection>
               <CalSection>
                 <Calendly src="../images/calendly.png" alt="calendly" />
-                <Cal>Calendly</Cal>
+                <Cal href="https://calendly.com/">Calendly</Cal>
               </CalSection>
             </WholeSection>
           </Right>

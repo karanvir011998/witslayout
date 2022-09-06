@@ -3,7 +3,6 @@ import {
   Client,
   ClientPeraHead,
   ClientHeading,
-  BorderDiv,
   Heading,
   Para,
   FirstImgeDiv,

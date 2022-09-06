@@ -27,8 +27,8 @@ function Intro() {
           individuals who share our love for connecting people with the best in
           their area.
         </Heading2>
-        <MiddleBtn>
-          <BtnTellus>Tell Us About Your Project</BtnTellus>
+        <MiddleBtn className="middlebtn">
+          <BtnTellus className="tell">Tell Us About Your Project</BtnTellus>
           <BtnRightArrow className="second">
             <i className="fa-solid fa-angle-right"></i>
           </BtnRightArrow>

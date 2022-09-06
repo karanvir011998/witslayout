@@ -32,19 +32,17 @@ export const LeftNumbers = styled.div`
 `;
 
 export const Tellus = styled.p`
-  font-size: 19px;
+  font-size: clamp(0.5rem, 1.3vw, 4rem);
   font-weight: 300;
 `;
 
-export const MainRightDiv = styled.h1`
-  /* width: clamp(2rem, 63vw, 88rem); */
-`;
+export const MainRightDiv = styled.h1``;
 
 export const OurNum = styled.h1`
-  height: 39px;
-  font-size: 45px;
-  width: 303px;
-  border-bottom: 10px solid #f9c51c;
+  height: clamp(1.5rem, 2vw, 6rem);
+  font-size: clamp(2.2rem, 3.2vw, 10rem);
+  width: clamp(15rem, 21vw, 25rem);
+  border-bottom: 1vw solid #f9c51c;
 `;
 export const RightNumbers = styled.div`
   width: fit-content;
@@ -58,22 +56,24 @@ export const Righthead = styled.div`
   font-weight: 800;
   color: #282828;
   margin-bottom: 16px;
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
+  width: 67vw;
 `;
 
 export const RightheadDesc = styled.p`
-  /* font-size: 17px; */
-  font-size: clamp(0.8rem, 1.12vw, 15rem);
+  font-size: clamp(0.6rem, 1.449vw, 15rem);
+
   color: #282828;
   font-weight: 500;
 `;
 
 export const WrapperStatus = styled.div`
   font-weight: 500;
-  font-size: 24px;
-  line-height: 46px;
   margin-top: 35px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  font-size: clamp(0.5rem, 2vw, 10rem);
+  line-height: 3.5vw;
 `;
 
 export const Fivehundredkwrapper = styled.div`

@@ -53,7 +53,6 @@ function Testimonials() {
           </ArrowImg>
         </Div>
         <Profile>
-          {/* <Cot src="./images/comas.png" alt="comas" /> */}
           <OuterDiv>
             <First>
               <Girl src="./images/profile.png" alt="profile" />
