@@ -37,21 +37,28 @@ import {
   Cal,
   Input,
   Option,
-} from "../styles/Contactusstyle";
+} from "styles/views/homepage/contactUs";
 
-function Contactus() {
+import background from "assets/images/contact-bg.png";
+import mask from "assets/images/mask.png";
+import circle from "assets/images/circle.png";
+import icon from "assets/images/Icon.png";
+import calendly from "assets/images/calendly.png";
+import whatsapp from "assets/images/whatsapp.png";
+
+const Contactus = () => {
   return (
     <Contactuss>
       <LeftContact>
-        <LeftContactImg src="../images/contact-bg.png" alt="contact-bg" />
+        <LeftContactImg src={background} alt="contact-bg" />
       </LeftContact>
       <Got>Got an idea?</Got>
       <Contact>Contact Us</Contact>
       <Ques>You have questions. We have answers.</Ques>
       <LeftWrap>
         <Left>
-          <CircleImg src="../images/mask.png" alt="mask" />
-          <Circle src="../images/circle.png" alt="circle" />
+          <CircleImg src={mask} alt="mask" />
+          <Circle src={circle} alt="circle" />
           <Project>Have a Project? We would love to help</Project>
         </Left>
         <WrapRight>
@@ -71,7 +78,7 @@ function Contactus() {
               ></Input>
             </Field>
             <Add>
-              <Icon src="../images/icon.png" alt="icon" />
+              <Icon src={icon} alt="icon" />
               <AddAttachment>Add Attachment</AddAttachment>
               <Optional>(Optional)</Optional>
             </Add>
@@ -91,13 +98,13 @@ function Contactus() {
             </Description>
             <WholeSection>
               <WhatSection>
-                <WhatsApp src="../images/whatsapp.png" alt="whatsapp" />
+                <WhatsApp src={whatsapp} alt="whatsapp" />
                 <What href="//api.whatsapp.com/send?phone=918437333427&text=HELLO">
                   Whatsapp
                 </What>
               </WhatSection>
               <CalSection>
-                <Calendly src="../images/calendly.png" alt="calendly" />
+                <Calendly src={calendly} alt="calendly" />
                 <Cal href="https://calendly.com/">Calendly</Cal>
               </CalSection>
             </WholeSection>
@@ -106,6 +113,6 @@ function Contactus() {
       </LeftWrap>
     </Contactuss>
   );
-}
+};
 
 export default Contactus;

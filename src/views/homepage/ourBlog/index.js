@@ -17,8 +17,14 @@ import {
   HeadingBlock,
   Blog,
   Commercial,
-} from "../styles/OurBlogStyle";
-function OurBlog() {
+} from "styles/views/homepage/ourBlog";
+import leftarrow from "assets/images/leftarrow.png";
+import rightarrow from "assets/images/rightarrow.png";
+import wilblog from "assets/images/wilblog.png";
+import blockchain from "assets/images/blockchain.png";
+import commercial from "assets/images/commercial.png";
+
+const OurBlog = () => {
   return (
     <Blog>
       <Head>
@@ -29,13 +35,13 @@ function OurBlog() {
             We're here to make your thoughts on tech a little more… thought-ful.
           </Para>
           <Arrows>
-            <Leftimage src="./images/leftarrow.png" alt="leftarrow" />
-            <Rightimage src="./images/rightarrow.png" alt="leftarrow" />
+            <Leftimage src={leftarrow} alt="leftarrow" />
+            <Rightimage src={rightarrow} alt="leftarrow" />
           </Arrows>
         </Paragraph>
       </Head>
       <AllImgs>
-        <WilBlog src="./images/wilblog.png" alt="wilblog" />
+        <WilBlog src={wilblog} alt="wilblog" />
         <Content>
           <HeadingWits>WIL Blog</HeadingWits>
           <ParaWits>
@@ -43,13 +49,13 @@ function OurBlog() {
             sint. Velit officia consequat
           </ParaWits>
         </Content>
-        <Blockchain src="./images/blockchain.png" alt="wilblog" />
+        <Blockchain src={blockchain} alt="wilblog" />
         <HeadingBlock>Block Chain</HeadingBlock>
-        <CommercialImage src="./images/commercial.png" alt="wilblog" />
+        <CommercialImage src={commercial} alt="wilblog" />
         <Commercial>Commercial</Commercial>
       </AllImgs>
     </Blog>
   );
-}
+};
 
 export default OurBlog;

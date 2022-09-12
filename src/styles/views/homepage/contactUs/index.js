@@ -6,7 +6,7 @@ export const Contactuss = styled.div`
 
 export const LeftContact = styled.div`
   position: absolute;
-  width: calc(100% - 63.2%);
+  width: calc(36.8%);
   right: 0;
   margin: 10.5vw 0 0 0;
 `;
@@ -35,7 +35,7 @@ export const Ques = styled.p`
   color: rgba(40, 40, 40, 1);
   text-transform: capitalize;
   font-size: clamp(0.8rem, 1.22vw, 50rem);
-  width: calc(100% - 35.5%);
+  width: calc(64.5%);
   font-weight: 700;
   margin: 2.5vw 0 0 0;
 `;
@@ -50,15 +50,15 @@ export const LeftWrap = styled.div`
 
 export const Left = styled.div`
   background-color: rgba(29, 46, 136, 1);
-  width: calc(100% - 57.2%);
+  width: calc(42.8%);
 
   border-radius: 1.25vw 0 0 1.25vw;
   position: relative;
 `;
 
 export const CircleImg = styled.img`
-  width: calc(100% - 0%);
-  height: calc(100% - 0%);
+  width: calc(100%);
+  height: calc(100%);
 `;
 
 export const Circle = styled.img`
@@ -75,12 +75,12 @@ export const Project = styled.p`
   left: 2.5vw;
   font-weight: 600;
   font-size: clamp(0.6rem, 3.6vw, 20rem);
-  width: calc(100% - 20%);
+  width: calc(80%);
   color: white;
 `;
 
 export const WrapRight = styled.div`
-  width: calc(100% - 42.8%);
+  width: calc(57.2%);
   background-color: #ffffff;
   border-radius: 0 1.25vw 1.25vw 0;
   padding: 2vw 3.5vw 2vw 6vw;
@@ -105,7 +105,7 @@ export const Select = styled.select`
   font-size: clamp(0.4rem, 1.11vw, 5rem);
   color: #4f4f4f;
   cursor: pointer;
-  width: calc(100% - 5%);
+  width: calc(95%);
 `;
 
 export const Option = styled.option``;
@@ -124,7 +124,7 @@ export const Input = styled.input`
   border: none;
   border-bottom: 1px solid #000000;
   background: #ffffff;
-  width: calc(100% - 5%);
+  width: calc(95%);
 `;
 
 export const Add = styled.div`
@@ -157,7 +157,10 @@ export const Send = styled.button`
   font-weight: 600;
   padding: 1vw 10vw 1vw 10vw;
   cursor: pointer;
-  width: calc(100% - 5%);
+  width: calc(95%);
+  &:hover {
+    border: 0.1vw solid black;
+  }
 `;
 
 export const LineSection = styled.div`
@@ -165,12 +168,12 @@ export const LineSection = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 2vw 0 0 0;
-  width: calc(100% - 5%);
+  width: calc(95%);
 `;
 
 export const Line1 = styled.div`
   border-bottom: 0.1vw solid #333333;
-  width: calc(100% - 55%);
+  width: calc(45%);
 `;
 
 export const Or = styled.p`
@@ -181,7 +184,7 @@ export const Or = styled.p`
 
 export const Line2 = styled.div`
   border-bottom: 0.1vw solid #333333;
-  width: calc(100% - 55%);
+  width: calc(45%);
 `;
 
 export const Description = styled.div`
@@ -197,20 +200,20 @@ export const Desc = styled.p`
   text-align: center;
   font-weight: 600;
   font-size: clamp(0.4rem, 1.11vw, 5rem);
-  width: calc(100% - 30%);
+  width: calc(70%);
 `;
 
 export const WholeSection = styled.div`
   margin: 2vw 0 0 0;
   display: flex;
-  width: calc(100% - 5%);
+  width: calc(95%);
   gap: 1.5vw;
 `;
 
 export const WhatSection = styled.div`
   border: 0.1vw solid #000000;
   display: flex;
-  width: calc(100% - 43%);
+  width: calc(57%);
   align-items: center;
   justify-content: center;
   padding: 0.89vw 4.39vw 0.89vw 4.39vw;
@@ -232,7 +235,7 @@ export const What = styled.a`
 export const CalSection = styled.div`
   border: 0.1vw solid #000000;
   display: flex;
-  width: calc(100% - 43%);
+  width: calc(57%);
   align-items: center;
   justify-content: center;
   padding: 0.89vw 4.39vw 0.89vw 4.39vw;
@@ -243,7 +246,7 @@ export const Calendly = styled.img`
 `;
 
 export const Cal = styled.a`
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: clamp(0.4rem, 1.22vw, 5rem);
   font-weight: 600;
   margin: 0 0 0 0.8vw;

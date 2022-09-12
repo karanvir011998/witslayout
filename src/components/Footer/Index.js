@@ -40,16 +40,23 @@ import {
   Privacy,
   Legal,
   Startftr,
-  Full,
-} from "../styles/FooterStyle";
-function Footer() {
+  FooterContainer,
+} from "styles/components/Footer/Index";
+import logo from "assets/images/wits-footer-logo.png";
+import linkedin from "assets/images/linkedin.svg";
+import fb from "assets/images/fb.svg";
+import twitter from "assets/images/twitter.svg";
+import youtube from "assets/images/youtube.svg";
+import email from "assets/images/email.svg";
+
+const Footer = () => {
   return (
-    <Full>
+    <FooterContainer>
       <Ftr>
         <LeftWrapper>
           <LeftTop>
             <Logo>
-              <Image src="../images/wits-footer-logo.png" />
+              <Image src={logo} />
             </Logo>
             <Description>
               Wits Innovation Lab is where creativity and innovation flourish.
@@ -88,17 +95,17 @@ function Footer() {
           <RightTop>
             <FollowUS>Follow US</FollowUS>
             <Icons>
-              <IconsImg src="../images/linkedin.svg" />
-              <IconsImg src="../images/fb.svg" />
-              <IconsImg src="../images/twitter.svg" />
-              <IconsImg src="../images/youtube.svg" />
+              <IconsImg src={linkedin} />
+              <IconsImg src={fb} />
+              <IconsImg src={twitter} />
+              <IconsImg src={youtube} />
             </Icons>
           </RightTop>
 
           <RightBottom>
             <Sub>Subscribe to Our Newsletter</Sub>
             <Search>
-              <Email src="../images/email.svg" />
+              <Email src={email} />
               <Input type="text" placeholder="Enter your Email" />
               <Btn value="Submit">Subscribe</Btn>
             </Search>
@@ -115,7 +122,7 @@ function Footer() {
           Copyright © 2020. witsinnovationlab. All rights reserved.
         </Copywright>
       </EndFtr>
-    </Full>
+    </FooterContainer>
   );
-}
+};
 export default Footer;

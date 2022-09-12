@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Full = styled.div`
+export const FooterContainer = styled.div`
   background-color: black;
   height: fit-content;
   padding-bottom: 3vw;
@@ -16,7 +16,6 @@ export const Ftr = styled.div`
 
 export const LeftWrapper = styled.div`
   width: calc(100% - 40%);
-  /* border: 1px solid red; */
 `;
 export const LeftTop = styled.div`
   margin: 2vw 4vw 0 9vw;
@@ -31,7 +30,6 @@ export const Description = styled.div`
   width: fit-content;
   padding-top: 0.5vw;
   margin-left: 4.2vw;
-  /* font-size: 0.8vw; */
   font-size: clamp(0.6rem, 1.2vw, 2rem);
 `;
 export const Image = styled.img`
@@ -60,7 +58,6 @@ export const Industries = styled.div``;
 export const MiddleDiv = styled.div`
   width: 24vw;
   padding: 1.2vw 0 0 2.9vw;
-
   border-right: 1px solid white;
   display: flex;
   flex-direction: column;
@@ -69,7 +66,6 @@ export const MiddleDiv = styled.div`
 export const General = styled.div`
   width: 11vw;
   height: 3.3vw;
-
   border-bottom: 0.3vw solid #f9c51c;
 `;
 export const Company = styled.div`
@@ -88,7 +84,6 @@ export const Contact = styled.div`
 export const LastDiv = styled.div`
   padding-left: 2vw;
   padding: 1.2vw 0 0 2vw;
-
   display: flex;
   flex-direction: column;
   gap: 1.3vw;

@@ -30,7 +30,7 @@ export const Paragraph = styled.div`
 `;
 
 export const Para = styled.p`
-  width: calc(100% - 33%);
+  width: calc(67%);
   margin: 2vw 0 0 0;
   font-weight: 600;
   font-size: clamp(0.8rem, 1.35vw, 2rem);
@@ -38,23 +38,25 @@ export const Para = styled.p`
 `;
 
 export const Arrows = styled.div`
-  width: calc(100% - 64.5%);
+  width: calc(35.5%);
   display: flex;
   margin: 0.5vw 0 0 0;
   column-gap: 1.2vw;
 `;
 
 export const Leftimage = styled.img`
-  width: calc(100% - 87%);
+  width: calc(13%);
 `;
 
 export const Rightimage = styled.img`
-  width: calc(100% - 87%);
+  width: calc(13%);
 `;
 
 export const AllImgs = styled.div`
   display: grid;
-  grid-template-areas: "main blockchain" "main commercial";
+  grid-template-areas:
+    "main blockchain"
+    "main commercial";
   margin: 6vw 0 0 2vw;
   justify-content: flex-start;
   height: fit-content;
@@ -103,7 +105,7 @@ export const HeadingBlock = styled.h3`
   position: absolute;
   font-size: clamp(0.7rem, 1.63vw, 2rem);
   right: 19.2vw;
-  top: calc(100% - 60.7%);
+  top: calc(39.3%);
   color: #ffffff;
 `;
 
@@ -111,6 +113,6 @@ export const Commercial = styled.h3`
   position: absolute;
   font-size: clamp(0.7rem, 1.63vw, 2rem);
   right: 19.2vw;
-  top: calc(100% - 11.7%);
+  top: calc(88.3%);
   color: #ffffff;
 `;

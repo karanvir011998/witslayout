@@ -14,7 +14,6 @@ import {
   RightArrow,
   Div,
   Profile,
-  // Comma,
   OuterDiv,
   First,
   Girl,
@@ -27,13 +26,21 @@ import {
   Null,
   DesWrapper,
   Des,
-} from "../styles/TestimonialsStyle";
+} from "styles/views/homepage/testimonial/TestimonialsStyle";
 
-function Testimonials() {
+import sliderLeftImg from "assets/images/sliderSideImg.png";
+import leftArrow from "assets/images/leftarrow.png";
+
+import rightArrow from "assets/images/rightarrow.png";
+import profile from "assets/images/profile.png";
+import fullstar from "assets/images/fillstar.png";
+import halfstar from "assets/images/nullstar.png";
+
+const Testimonials = () => {
   return (
     <Testimonial>
       <ImgLeft>
-        <SideImg src="./images/sliderSideImg.png" alt="sideImg" />
+        <SideImg src={sliderLeftImg} alt="sideImg" />
       </ImgLeft>
       <Content>
         <Parasuccess>See our success in</Parasuccess>
@@ -48,25 +55,25 @@ function Testimonials() {
           </Para>
 
           <ArrowImg>
-            <LeftArrow src="./images/leftarrow.png" alt="left" />
-            <RightArrow src="./images/rightarrow.png" alt="right" />
+            <LeftArrow src={leftArrow} alt="left" />
+            <RightArrow src={rightArrow} alt="right" />
           </ArrowImg>
         </Div>
         <Profile>
           <OuterDiv>
             <First>
-              <Girl src="./images/profile.png" alt="profile" />
+              <Girl src={profile} alt="profile" />
             </First>
             <Second>
               <Jane>
                 <JaneName>Jane Cooper</JaneName>
                 <JanePost>Manager at Google</JanePost>
                 <ImgStar>
-                  <Star src="./images/fillstar.png" alt="fill" />
-                  <Star src="./images/fillstar.png" alt="fill" />
-                  <Star src="./images/fillstar.png" alt="fill" />
-                  <Star src="./images/fillstar.png" alt="fill" />
-                  <Null src="./images/nullstar.png" alt="null" />
+                  <Star src={fullstar} alt="fill" />
+                  <Star src={fullstar} alt="fill" />
+                  <Star src={fullstar} alt="fill" />
+                  <Star src={fullstar} alt="fill" />
+                  <Null src={halfstar} alt="null" />
                 </ImgStar>
               </Jane>
             </Second>
@@ -82,6 +89,6 @@ function Testimonials() {
       </Content>
     </Testimonial>
   );
-}
+};
 
 export default Testimonials;

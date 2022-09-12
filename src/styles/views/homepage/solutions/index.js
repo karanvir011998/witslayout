@@ -59,8 +59,6 @@ export const Solutionsdata = styled.div`
 `;
 
 export const BodyData = styled.div`
-  .data {
-  }
   display: flex;
   border: 1px solid black;
   justify-content: space-between;

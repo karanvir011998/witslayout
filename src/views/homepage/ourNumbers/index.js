@@ -16,13 +16,14 @@ import {
   WrapperStatus,
   Fivehundredkwrapper65,
   MainRightDiv,
-} from "../styles/NetworkStyle";
+} from "styles/views/homepage/ourNumbers/Index";
+import leftimg from "assets/images/networkdivimg.png";
 
-function Network() {
+const OurNumbers = () => {
   return (
     <OurNetwork>
       <LeftImage>
-        <LeftImg src="./images/networkdivimg.png" alt="networks" />
+        <LeftImg src={leftimg} alt="networks" />
       </LeftImage>
       <OurnetText>
         <LeftNumup>
@@ -60,6 +61,6 @@ function Network() {
       </OurnetText>
     </OurNetwork>
   );
-}
+};
 
-export default Network;
+export default OurNumbers;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const Div2 = styled.div`
+export const TransformationContainer = styled.div``;
+export const TransformationWrapper = styled.div`
   padding: 5vw 4.5vw 0 6.5vw;
 `;
 

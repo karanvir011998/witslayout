@@ -1,6 +1,7 @@
 import React from "react";
 import {
-  Div2,
+  TransformationWrapper,
+  TransformationContainer,
   Heading,
   Span,
   Heading2,
@@ -12,12 +13,13 @@ import {
   FollowUSWrapper,
   SocialMedia,
   ToprightImage,
-} from "../styles/IntroStyle";
+} from "styles/views/homepage/transformation";
 
-function Intro() {
+import rightimage from "assets/images/group.png";
+const Transformation = () => {
   return (
-    <>
-      <Div2>
+    <TransformationContainer>
+      <TransformationWrapper>
         <Heading>
           We're not just IT. We're a
           <Span> Business Transformation Company.</Span>
@@ -43,13 +45,10 @@ function Intro() {
             <i class="fa-brands fa-youtube"></i>
           </SocialMedia>
         </FollowUSWrapper>
-      </Div2>
-      <ToprightImage
-        src="./images/group.png"
-        alt="toprightlogo"
-      ></ToprightImage>
-    </>
+      </TransformationWrapper>
+      <ToprightImage src={rightimage} alt="toprightlogo"></ToprightImage>
+    </TransformationContainer>
   );
-}
+};
 
-export default Intro;
+export default Transformation;

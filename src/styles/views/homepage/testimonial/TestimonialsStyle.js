@@ -5,16 +5,16 @@ export const Testimonial = styled.div`
 `;
 
 export const ImgLeft = styled.div`
-  width: calc(100% - 75%);
+  width: calc(25%);
   margin: 0.5vw 0 0 0;
 `;
 
 export const SideImg = styled.img`
-  width: calc(100% - 10%);
+  width: calc(90%);
 `;
 
 export const Content = styled.div`
-  width: calc(100% - 37%);
+  width: calc(63%);
   margin: 0vh 0 0vh 0.4vw;
 `;
 
@@ -43,7 +43,7 @@ export const Span4 = styled.span`
   color: rgba(40, 40, 40, 1);
   text-transform: capitalize;
   font-size: clamp(0.8rem, 1.4vw, 2rem);
-  width: calc(100% - 10%);
+  width: calc(90%);
   font-weight: 700;
   font-size: 1.21vw;
 `;
@@ -77,8 +77,8 @@ export const Profile = styled.div`
   background: #f1f1f1;
   border: 2px solid rgba(29, 46, 136, 0.5);
   border-radius: 16px;
-  width: calc(100% - 34%);
-  height: calc(100% - 56%);
+  width: calc(66%);
+  height: calc(45%);
   display: flex;
   flex-direction: column;
   justify-content: center;

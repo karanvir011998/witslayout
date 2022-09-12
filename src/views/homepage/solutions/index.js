@@ -13,9 +13,10 @@ import {
   BodyData,
   Arrowdown,
   Data,
-} from "../styles/SolutionsStyle";
-import datas from "./data.json";
-function Solutions() {
+} from "styles/views/homepage/solutions";
+import datas from "data.json";
+
+const Solutions = () => {
   return (
     <Solution>
       <SolHeadWrapper>
@@ -45,6 +46,6 @@ function Solutions() {
       </SolHeadWrapper>
     </Solution>
   );
-}
+};
 
 export default Solutions;
