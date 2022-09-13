@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
-export const Contactuss = styled.div`
+export const ContactUsContainer = styled.div`
   margin: 12vw 9.5vw 0 9.5vw;
 `;
 
-export const LeftContact = styled.div`
+export const RightBackgroundWrapper = styled.div`
   position: absolute;
   width: calc(36.8%);
   right: 0;
   margin: 10.5vw 0 0 0;
 `;
 
-export const LeftContactImg = styled.img`
+export const RightBackgroundImage = styled.img`
   width: calc(100%);
 `;
 
@@ -40,7 +40,7 @@ export const Ques = styled.p`
   margin: 2.5vw 0 0 0;
 `;
 
-export const LeftWrap = styled.div`
+export const ContactWrapper = styled.div`
   border: 1.5px solid rgba(29, 46, 136, 1);
   border-radius: 1.25vw;
   display: flex;
@@ -48,7 +48,7 @@ export const LeftWrap = styled.div`
   height: 49.2vw;
 `;
 
-export const Left = styled.div`
+export const LeftWrapper = styled.div`
   background-color: rgba(29, 46, 136, 1);
   width: calc(42.8%);
 
@@ -69,7 +69,7 @@ export const Circle = styled.img`
   height: calc(100% - 36.6vw);
 `;
 
-export const Project = styled.p`
+export const HeadingProject = styled.p`
   position: absolute;
   top: 16.8vw;
   left: 2.5vw;
@@ -79,7 +79,7 @@ export const Project = styled.p`
   color: white;
 `;
 
-export const WrapRight = styled.div`
+export const FormWrapper = styled.div`
   width: calc(57.2%);
   background-color: #ffffff;
   border-radius: 0 1.25vw 1.25vw 0;
@@ -87,14 +87,12 @@ export const WrapRight = styled.div`
   z-index: 3;
 `;
 
-export const Right = styled.div``;
-
 export const Interested = styled.p`
   font-weight: 600;
   font-size: clamp(0.4rem, 1.11vw, 5rem);
 `;
 
-export const Select = styled.select`
+export const DropdownMenu = styled.select`
   background: #ffffff;
   border: 1px solid #000000;
   width: 33.88vw;
@@ -110,7 +108,7 @@ export const Select = styled.select`
 
 export const Option = styled.option``;
 
-export const Field = styled.div`
+export const InputFields = styled.div`
   display: flex;
   flex-direction: column;
   gap: 3.5vw;
@@ -127,11 +125,11 @@ export const Input = styled.input`
   width: calc(95%);
 `;
 
-export const Add = styled.div`
+export const AddAttachmentWrapper = styled.div`
   display: flex;
 `;
 
-export const Icon = styled.img`
+export const AddAttachmentIcon = styled.img`
   margin: 2vw 0 0 0;
   width: clamp(0.6rem, 1.6vw, 5rem);
 `;
@@ -146,11 +144,11 @@ export const Optional = styled.p`
   font-size: clamp(0.4rem, 1.11vw, 5rem);
   margin: 2.2vw 0 0 1vw;
 `;
-export const SendBtn = styled.div`
+export const SendButtonWrapper = styled.div`
   margin: 3vw 0 0 0;
 `;
 
-export const Send = styled.button`
+export const SendButton = styled.button`
   background: #f9c51c;
   border: none;
   font-size: clamp(0.4rem, 1.2vw, 5rem);
@@ -163,7 +161,7 @@ export const Send = styled.button`
   }
 `;
 
-export const LineSection = styled.div`
+export const LineWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -171,7 +169,7 @@ export const LineSection = styled.div`
   width: calc(95%);
 `;
 
-export const Line1 = styled.div`
+export const LeftLineBlock = styled.div`
   border-bottom: 0.1vw solid #333333;
   width: calc(45%);
 `;
@@ -182,7 +180,7 @@ export const Or = styled.p`
   font-size: clamp(0.4rem, 1.25vw, 5rem);
 `;
 
-export const Line2 = styled.div`
+export const RightLineBlock = styled.div`
   border-bottom: 0.1vw solid #333333;
   width: calc(45%);
 `;
@@ -193,24 +191,21 @@ export const Description = styled.div`
   text-align: center;
   justify-content: center;
   margin: 2vw 0 0 0;
-`;
-
-export const Desc = styled.p`
   color: #333333;
-  text-align: center;
   font-weight: 600;
   font-size: clamp(0.4rem, 1.11vw, 5rem);
   width: calc(70%);
+  margin: 1.3vw auto;
 `;
 
-export const WholeSection = styled.div`
+export const LinksWrapper = styled.div`
   margin: 2vw 0 0 0;
   display: flex;
   width: calc(95%);
   gap: 1.5vw;
 `;
 
-export const WhatSection = styled.div`
+export const WhatsappWrapper = styled.div`
   border: 0.1vw solid #000000;
   display: flex;
   width: calc(57%);
@@ -219,11 +214,11 @@ export const WhatSection = styled.div`
   padding: 0.89vw 4.39vw 0.89vw 4.39vw;
 `;
 
-export const WhatsApp = styled.img`
+export const WhatsAppIcon = styled.img`
   width: clamp(0.8rem, 1.9vw, 10rem);
 `;
 
-export const What = styled.a`
+export const WhatsappLink = styled.a`
   text-decoration: none;
 
   font-size: clamp(0.4rem, 1.22vw, 5rem);
@@ -232,7 +227,7 @@ export const What = styled.a`
   color: black;
 `;
 
-export const CalSection = styled.div`
+export const CalendlyWrapper = styled.div`
   border: 0.1vw solid #000000;
   display: flex;
   width: calc(57%);
@@ -241,11 +236,11 @@ export const CalSection = styled.div`
   padding: 0.89vw 4.39vw 0.89vw 4.39vw;
 `;
 
-export const Calendly = styled.img`
+export const CalendlyIcon = styled.img`
   width: clamp(0.8rem, 1.9vw, 10rem);
 `;
 
-export const Cal = styled.a`
+export const CalendlyLink = styled.a`
   /* text-decoration: none; */
   font-size: clamp(0.4rem, 1.22vw, 5rem);
   font-weight: 600;

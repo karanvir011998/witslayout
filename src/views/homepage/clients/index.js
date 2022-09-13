@@ -1,14 +1,14 @@
 import React from "react";
 import {
-  Client,
+  ClientContainer,
   ClientPeraHead,
   ClientHeading,
   Heading,
   Para,
-  FirstImgeDiv,
+  ClientsSubWrapper,
   HerbalLife,
-  ImgDiv,
-  SecondImgeDiv,
+  ClientsWrapper,
+  ClientSubWrapper,
   Earn,
   Trepp,
   Farms,
@@ -30,33 +30,31 @@ import designwork from "assets/images/clients8.png";
 import moonverse from "assets/images/clients9.png";
 import payu from "assets/images/clients10.png";
 
-const Clients = () => {
-  return (
-    <Client>
-      <ClientPeraHead>See who's winning with us</ClientPeraHead>
-      <ClientHeading>Our Clients</ClientHeading>
-      <Heading>
-        These powerhouses are already winning business with us.
-        <Para>We love what we do, and we hope you'll let us help you too.</Para>
-      </Heading>
-      <ImgDiv>
-        <FirstImgeDiv>
-          <HerbalLife src={herbal} alt="herbal" />
-          <Trepp src={trepp} alt="trepp" />
-          <Farms src={farms} alt="farm" />
-          <Affinidi src={affiniti} alt="affinit" />
-          <Bcg src={bcg} alt="bcg" />
-        </FirstImgeDiv>
-        <SecondImgeDiv SecondImgeDiv>
-          <Earn src={earns} alt="earn" />
-          <Hermes src={hermes} alt="hermes" />
-          <Designwork src={designwork} alt="designwrk" />
-          <Moonverse src={moonverse} alt="moon" />
-          <Payu src={payu} alt="payu" />
-        </SecondImgeDiv>
-      </ImgDiv>
-    </Client>
-  );
-};
+const Clients = () => (
+  <ClientContainer>
+    <ClientPeraHead>See who's winning with us</ClientPeraHead>
+    <ClientHeading>Our Clients</ClientHeading>
+    <Heading>
+      These powerhouses are already winning business with us.
+      <Para>We love what we do, and we hope you'll let us help you too.</Para>
+    </Heading>
+    <ClientsWrapper>
+      <ClientsSubWrapper>
+        <HerbalLife src={herbal} alt="herbal" />
+        <Trepp src={trepp} alt="trepp" />
+        <Farms src={farms} alt="farm" />
+        <Affinidi src={affiniti} alt="affinit" />
+        <Bcg src={bcg} alt="bcg" />
+      </ClientsSubWrapper>
+      <ClientSubWrapper SecondImgeDiv>
+        <Earn src={earns} alt="earn" />
+        <Hermes src={hermes} alt="hermes" />
+        <Designwork src={designwork} alt="designwrk" />
+        <Moonverse src={moonverse} alt="moon" />
+        <Payu src={payu} alt="payu" />
+      </ClientSubWrapper>
+    </ClientsWrapper>
+  </ClientContainer>
+);
 
 export default Clients;

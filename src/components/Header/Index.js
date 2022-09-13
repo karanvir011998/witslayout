@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  HeaderWrapper,
+  HeaderContainer,
   Logo,
   LogoImage,
   NavbarWrapper,
@@ -9,31 +9,29 @@ import {
   ConnectButton,
   AboutUs,
   Services,
-} from "styles/components/Header/Index";
+} from "styles/components/Header";
 
 import witslogo from "assets/images/wits-logo.png";
 
-function Header() {
-  return (
-    <HeaderWrapper>
-      <Logo>
-        <LogoImage src={witslogo} alt="wits-logo" />
-      </Logo>
-      <NavbarWrapper>
-        <AboutUs>
-          About Us<i className="fa-solid fa-angle-down"></i>
-        </AboutUs>
-        <Links>Industry</Links>
-        <Services>
-          Services<i className="fa-solid fa-angle-down"></i>
-        </Services>
-        <Links>Career</Links>
-      </NavbarWrapper>
-      <ConnectButtonWrapper>
-        <ConnectButton>Let's Connect</ConnectButton>
-      </ConnectButtonWrapper>
-    </HeaderWrapper>
-  );
-}
+const Header = () => (
+  <HeaderContainer>
+    <Logo>
+      <LogoImage src={witslogo} alt="wits-logo" />
+    </Logo>
+    <NavbarWrapper>
+      <AboutUs>
+        About Us<i className="fa-solid fa-angle-down"></i>
+      </AboutUs>
+      <Links>Industry</Links>
+      <Services>
+        Services<i className="fa-solid fa-angle-down"></i>
+      </Services>
+      <Links>Career</Links>
+    </NavbarWrapper>
+    <ConnectButtonWrapper>
+      <ConnectButton>Let's Connect</ConnectButton>
+    </ConnectButtonWrapper>
+  </HeaderContainer>
+);
 
 export default Header;

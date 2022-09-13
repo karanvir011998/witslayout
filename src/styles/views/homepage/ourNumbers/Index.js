@@ -1,77 +1,131 @@
 import styled from "styled-components";
-export const OurNetwork = styled.div`
-  display: -webkit-box;
-`;
-export const OurnetText = styled.div`
+
+export const OurNumbersContainer = styled.div`
   display: flex;
-  margin: auto 0;
-  width: clamp(5rem, 76vw, 80rem);
+  margin-top: 5vw;
 `;
-export const LeftNumup = styled.div`
-  margin-top: 160px;
+
+export const LeftBlockWrapper = styled.div`
+  max-width: 17.12vw;
 `;
-export const LeftImage = styled.div`
-  width: clamp(4rem, 17vw, 25rem);
+
+export const LeftBlockImage = styled.img`
+  max-width: 17.12vw;
 `;
-export const LeftImg = styled.img`
-  width: clamp(10rem, 17vw, 25rem);
-`;
-export const LeftNumbers = styled.div`
+
+export const OurNumbersWrapper = styled.div`
   transform: rotate(-90deg);
-  line-height: 1;
-  width: clamp(5rem, 12.2vw, 15rem);
+  margin-left: 12vw;
+  /* width: -1vw; */
 `;
-export const Tellus = styled.p`
-  font-size: clamp(0.5rem, 1.3vw, 4rem);
-  font-weight: 300;
-`;
-export const MainRightDiv = styled.h1``;
-export const OurNum = styled.h1`
-  height: clamp(1.5rem, 2vw, 6rem);
-  font-size: clamp(2.2rem, 3.2vw, 10rem);
-  width: clamp(15rem, 21vw, 25rem);
-  border-bottom: 1vw solid #f9c51c;
-`;
-export const RightNumbers = styled.div`
-  width: fit-content;
-  border-bottom: 2px solid blue;
-  border-bottom-width: 55%;
-  padding-bottom: 65px;
-  margin-right: 17%;
-`;
-export const Righthead = styled.div`
-  font-weight: 800;
-  color: #282828;
-  margin-bottom: 16px;
-  font-size: clamp(0.5rem, 1.5vw, 2rem);
-  width: 67vw;
-`;
-export const RightheadDesc = styled.p`
-  font-size: clamp(0.6rem, 1.449vw, 15rem);
-  color: #282828;
+
+export const Letdiv = styled.div`
   font-weight: 500;
+  font-size: 1.3vw;
+  line-height: 1.95vw;
+  color: #828282;
 `;
-export const WrapperStatus = styled.div`
-  font-weight: 500;
-  margin-top: 35px;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  font-size: clamp(0.5rem, 2vw, 10rem);
-  line-height: 3.5vw;
+
+export const Numberdiv = styled.div`
+  font-weight: 700;
+  font-size: 3.51vw;
+  line-height: 4.49vw;
+  color: #1d1d1d;
+  width: 23vw;
+  border-bottom: 0.781vw solid #f9c51c;
+  height: 2.8vw;
 `;
-export const Fivehundredkwrapper = styled.div`
+
+export const RightBlockWrapper = styled.div`
+  margin-left: -18vw;
+`;
+
+export const ContentWrapper = styled.div`
+  margin-top: 11vw;
+`;
+
+export const ContentHeading = styled.p`
+  font-weight: 700;
+  font-size: 1.3vw;
+  line-height: 1.95vw;
+`;
+
+export const ContentDescription = styled.p`
+  font-size: 1.3vw;
+  line-height: 1.95;
+  color: #333333;
+  margin-top: 1vw;
+`;
+
+export const BorderWrapper = styled.div`
+  border-bottom: 0.26vw solid #1d2e88;
+  width: 52.53vw;
+  margin-top: 2.5vw;
+`;
+
+export const TargetWrapper = styled.div`
   display: flex;
-  color: #1d2e88;
-  flex-direction: column;
-  width: fit-content;
-  border-right: 0.47172px solid #1d2e88;
-  padding-right: 20%;
+  margin-top: 2.5vw;
+  justify-content: space-between;
+  width: 50vw;
 `;
-export const Fivehundredkwrapper65 = styled.div``;
-export const Fivek = styled.h1`
-  font-weight: 900;
+
+export const CodeWrapper = styled.div``;
+
+export const CodeAchievement = styled.div`
+  font-weight: 700;
+  font-size: 4.16vw;
+  line-height: 5.01vw;
   color: #1d2e88;
 `;
-export const Lineofcode = styled.p`
+
+export const CodeDescription = styled.div`
   color: #1d2e88;
+  font-weight: 500;
+  font-size: 1.56vw;
+  line-height: 2.34vw;
+`;
+
+export const CodeRightBorder = styled.div`
+  border-right: 1px Solid #1d2e88;
+  height: 4.85vw;
+  margin-top: 1.5vw;
+`;
+
+export const MembersWrapper = styled.div``;
+
+export const TeamAchievement = styled.div`
+  font-weight: 700;
+  font-size: 4.16vw;
+  line-height: 5.01vw;
+  color: #1d2e88;
+`;
+
+export const TeamDescription = styled.div`
+  color: #1d2e88;
+  font-weight: 500;
+  font-size: 1.56vw;
+  line-height: 2.34vw;
+`;
+
+export const Fourthline = styled.div`
+  border-right: 1px Solid #1d2e88;
+  height: 4.85vw;
+  margin-top: 1.5vw;
+`;
+
+export const ProjectsWrapper = styled.div``;
+
+export const ProjectAchievement = styled.div`
+  font-weight: 700;
+  font-size: 4.16vw;
+  line-height: 5.01vw;
+  color: #1d2e88;
+`;
+
+export const ProjectDescription = styled.div`
+  color: #1d2e88;
+  font-weight: 500;
+  font-size: 1.56vw;
+  line-height: 2.34vw;
 `;

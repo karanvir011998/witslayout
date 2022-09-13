@@ -1,40 +1,38 @@
 import React from "react";
 import {
-  Contactuss,
-  LeftContact,
-  LeftContactImg,
+  ContactUsContainer,
+  RightBackgroundWrapper,
+  RightBackgroundImage,
   Got,
   Contact,
   Ques,
-  LeftWrap,
-  Left,
+  ContactWrapper,
+  LeftWrapper,
   CircleImg,
   Circle,
-  Project,
-  WrapRight,
-  Right,
+  HeadingProject,
+  FormWrapper,
   Interested,
-  Select,
-  Field,
-  Add,
-  Icon,
+  DropdownMenu,
+  InputFields,
+  AddAttachmentWrapper,
+  AddAttachmentIcon,
   AddAttachment,
   Optional,
-  SendBtn,
-  Send,
-  LineSection,
-  Line1,
+  SendButtonWrapper,
+  SendButton,
+  LineWrapper,
+  LeftLineBlock,
   Or,
-  Line2,
+  RightLineBlock,
   Description,
-  Desc,
-  WholeSection,
-  WhatSection,
-  WhatsApp,
-  What,
-  CalSection,
-  Calendly,
-  Cal,
+  LinksWrapper,
+  WhatsappWrapper,
+  WhatsAppIcon,
+  WhatsappLink,
+  CalendlyWrapper,
+  CalendlyIcon,
+  CalendlyLink,
   Input,
   Option,
 } from "styles/views/homepage/contactUs";
@@ -46,73 +44,64 @@ import icon from "assets/images/Icon.png";
 import calendly from "assets/images/calendly.png";
 import whatsapp from "assets/images/whatsapp.png";
 
-const Contactus = () => {
-  return (
-    <Contactuss>
-      <LeftContact>
-        <LeftContactImg src={background} alt="contact-bg" />
-      </LeftContact>
-      <Got>Got an idea?</Got>
-      <Contact>Contact Us</Contact>
-      <Ques>You have questions. We have answers.</Ques>
-      <LeftWrap>
-        <Left>
-          <CircleImg src={mask} alt="mask" />
-          <Circle src={circle} alt="circle" />
-          <Project>Have a Project? We would love to help</Project>
-        </Left>
-        <WrapRight>
-          <Right>
-            <Interested>I’m interested in....</Interested>
-            <Select>
-              <Option>All Services</Option>
-              <Option>Contact</Option>
-              <Option>About Us</Option>
-            </Select>
-            <Field>
-              <Input type="text" placeholder="Your name"></Input>
-              <Input type="email" placeholder="Your email"></Input>
-              <Input
-                type="text"
-                placeholder="Tell us about your project"
-              ></Input>
-            </Field>
-            <Add>
-              <Icon src={icon} alt="icon" />
-              <AddAttachment>Add Attachment</AddAttachment>
-              <Optional>(Optional)</Optional>
-            </Add>
-            <SendBtn>
-              <Send>Send Request</Send>
-            </SendBtn>
-            <LineSection>
-              <Line1></Line1>
-              <Or>or</Or>
-              <Line2></Line2>
-            </LineSection>
-            <Description>
-              <Desc>
-                If you're ready to make a change, we're ready to help. Just
-                connect with us today!
-              </Desc>
-            </Description>
-            <WholeSection>
-              <WhatSection>
-                <WhatsApp src={whatsapp} alt="whatsapp" />
-                <What href="//api.whatsapp.com/send?phone=918437333427&text=HELLO">
-                  Whatsapp
-                </What>
-              </WhatSection>
-              <CalSection>
-                <Calendly src={calendly} alt="calendly" />
-                <Cal href="https://calendly.com/">Calendly</Cal>
-              </CalSection>
-            </WholeSection>
-          </Right>
-        </WrapRight>
-      </LeftWrap>
-    </Contactuss>
-  );
-};
+const Contactus = () => (
+  <ContactUsContainer>
+    <RightBackgroundWrapper>
+      <RightBackgroundImage src={background} alt="contact-bg" />
+    </RightBackgroundWrapper>
+    <Got>Got an idea?</Got>
+    <Contact>Contact Us</Contact>
+    <Ques>You have questions. We have answers.</Ques>
+    <ContactWrapper>
+      <LeftWrapper>
+        <CircleImg src={mask} alt="mask" />
+        <Circle src={circle} alt="circle" />
+        <HeadingProject>Have a Project? We would love to help</HeadingProject>
+      </LeftWrapper>
+      <FormWrapper>
+        <Interested>I’m interested in....</Interested>
+        <DropdownMenu>
+          <Option>All Services</Option>
+          <Option>Contact</Option>
+          <Option>About Us</Option>
+        </DropdownMenu>
+        <InputFields>
+          <Input type="text" placeholder="Your name"></Input>
+          <Input type="email" placeholder="Your email"></Input>
+          <Input type="text" placeholder="Tell us about your project"></Input>
+        </InputFields>
+        <AddAttachmentWrapper>
+          <AddAttachmentIcon src={icon} alt="icon" />
+          <AddAttachment>Add Attachment</AddAttachment>
+          <Optional>(Optional)</Optional>
+        </AddAttachmentWrapper>
+        <SendButtonWrapper>
+          <SendButton>Send Request</SendButton>
+        </SendButtonWrapper>
+        <LineWrapper>
+          <LeftLineBlock></LeftLineBlock>
+          <Or>or</Or>
+          <RightLineBlock></RightLineBlock>
+        </LineWrapper>
+        <Description>
+          If you're ready to make a change, we're ready to help. Just connect
+          with us today!
+        </Description>
+        <LinksWrapper>
+          <WhatsappWrapper>
+            <WhatsAppIcon src={whatsapp} alt="whatsapp" />
+            <WhatsappLink href="//api.whatsapp.com/send?phone=918437333427&text=HELLO">
+              Whatsapp
+            </WhatsappLink>
+          </WhatsappWrapper>
+          <CalendlyWrapper>
+            <CalendlyIcon src={calendly} alt="calendly" />
+            <CalendlyLink href="https://calendly.com/">Calendly</CalendlyLink>
+          </CalendlyWrapper>
+        </LinksWrapper>
+      </FormWrapper>
+    </ContactWrapper>
+  </ContactUsContainer>
+);
 
 export default Contactus;

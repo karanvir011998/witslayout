@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-export const Blog = styled.div`
+export const OurBlogContainer = styled.div`
   margin: 10vh 8vw 0 10vw;
 `;
 
-export const Head = styled.div`
+export const HeadingWrapper = styled.div`
   padding: 0 0 0 1.7vw;
 `;
 
@@ -14,7 +14,7 @@ export const Heading = styled.p`
   font-weight: 400;
 `;
 
-export const HeadBlog = styled.h1`
+export const HeadingBlog = styled.h1`
   color: rgba(29, 29, 29, 1);
   font-size: clamp(2rem, 3.7vw, 4.5rem);
   font-weight: 700;
@@ -24,12 +24,12 @@ export const HeadBlog = styled.h1`
   width: clamp(9rem, 16vw, 20rem);
 `;
 
-export const Paragraph = styled.div`
+export const ContentWrapper = styled.div`
   display: flex;
   align-items: center;
 `;
 
-export const Para = styled.p`
+export const Content = styled.p`
   width: calc(67%);
   margin: 2vw 0 0 0;
   font-weight: 600;
@@ -44,15 +44,15 @@ export const Arrows = styled.div`
   column-gap: 1.2vw;
 `;
 
-export const Leftimage = styled.img`
+export const LeftArrow = styled.img`
   width: calc(13%);
 `;
 
-export const Rightimage = styled.img`
+export const RightArrow = styled.img`
   width: calc(13%);
 `;
 
-export const AllImgs = styled.div`
+export const ImagesWrapper = styled.div`
   display: grid;
   grid-template-areas:
     "main blockchain"
@@ -64,11 +64,11 @@ export const AllImgs = styled.div`
   gap: 1.5vw;
   position: relative;
 `;
-export const WilBlog = styled.img`
+export const WilBlogImage = styled.img`
   width: clamp(10rem, 35.5vw, 60rem);
   grid-area: main;
 `;
-export const Blockchain = styled.img`
+export const BlockchainImage = styled.img`
   width: clamp(10rem, 30.5vw, 60rem);
   grid-area: blockchain;
 `;
@@ -77,7 +77,7 @@ export const CommercialImage = styled.img`
   grid-area: commercial;
 `;
 
-export const Content = styled.div`
+export const Contents = styled.div`
   position: absolute;
   background-color: rgba(29, 46, 136, 1);
   display: flex;
@@ -89,7 +89,7 @@ export const Content = styled.div`
   width: clamp(10rem, 31.9vw, 60rem);
 `;
 
-export const HeadingWits = styled.h3`
+export const HeadingWilBlog = styled.h3`
   color: rgba(255, 255, 255, 1);
   font-size: clamp(0.7rem, 1.63vw, 2rem);
   margin: 1vw 0;
@@ -101,7 +101,7 @@ export const ParaWits = styled.p`
   font-size: clamp(0.5rem, 1vw, 1.5rem);
 `;
 
-export const HeadingBlock = styled.h3`
+export const HeadingBlockchain = styled.h3`
   position: absolute;
   font-size: clamp(0.7rem, 1.63vw, 2rem);
   right: 19.2vw;
@@ -109,7 +109,7 @@ export const HeadingBlock = styled.h3`
   color: #ffffff;
 `;
 
-export const Commercial = styled.h3`
+export const HeadingCommercial = styled.h3`
   position: absolute;
   font-size: clamp(0.7rem, 1.63vw, 2rem);
   right: 19.2vw;

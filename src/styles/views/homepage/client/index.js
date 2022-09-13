@@ -12,7 +12,7 @@ export const ClientWrap = styled.div`
   margin: 0 0 12vw 0;
 `;
 
-export const Client = styled.div`
+export const ClientContainer = styled.div`
   margin: 10vw 0 10vw 5vw;
   display: inline-flex;
   flex-direction: column;
@@ -52,13 +52,15 @@ export const Para = styled.p`
   font-weight: 500;
 `;
 
-export const ImgDiv = styled.div`
+export const ClientsWrapper = styled.div`
+  margin-top: 2vw;
   display: flex;
   flex-direction: column;
   align-items: calc(100% - 20%);
 `;
 
-export const FirstImgeDiv = styled.div`
+export const ClientsSubWrapper = styled.div`
+  margin: 0 0 0 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +68,7 @@ export const FirstImgeDiv = styled.div`
   box-sizing: border-box;
 `;
 
-export const SecondImgeDiv = styled.div`
+export const ClientSubWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

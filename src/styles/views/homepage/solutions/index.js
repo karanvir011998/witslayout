@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Solution = styled.div`
+export const SolutionContainer = styled.div`
   margin: 5%;
 `;
 
@@ -8,16 +8,16 @@ export const Data = styled.div`
   padding: 3.5vw 2vw;
 `;
 
-export const SolHeadWrapper = styled.div`
+export const SolutionWrapper = styled.div`
   margin: 2vw;
 `;
-export const SolHead = styled.div`
+export const SolutionContent = styled.div`
   font-size: 20px;
 `;
-export const Wehave = styled.span`
+export const HeadingWehave = styled.span`
   font-weight: 300;
 `;
-export const SolProblem = styled.h1`
+export const HeadingSolution = styled.h1`
   border-bottom: 1vw solid #f9c51c;
   height: 2.8vw;
 
@@ -36,16 +36,17 @@ export const Lookingfor = styled.div`
   font-size: 3vw;
   color: white;
   font-weight: 600;
+  margin-bottom: 1.5vw;
 `;
 
-export const Ques = styled.div`
+export const Question = styled.div`
   font-size: 1.5vw;
   color: white;
   text-align: end;
-  margin: 15px 0;
+  margin: 2vw 0;
 `;
 
-export const SoldataWrapper = styled.div``;
+export const SolutionDataWrapper = styled.div``;
 
 export const Solutionsdata = styled.div`
   padding: 3.5vw;
@@ -65,7 +66,7 @@ export const BodyData = styled.div`
   border-radius: 20px;
 `;
 
-export const Arrowdown = styled.div`
+export const RightArrow = styled.div`
   background: #f9c51c;
   border-top-right-radius: 19px;
   border-bottom-right-radius: 19px;

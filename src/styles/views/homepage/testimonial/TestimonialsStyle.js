@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-export const Testimonial = styled.div`
+export const TestimonialContainer = styled.div`
   display: flex;
 `;
 
-export const ImgLeft = styled.div`
+export const LeftBlock = styled.div`
   width: calc(25%);
   margin: 0.5vw 0 0 0;
 `;
@@ -13,23 +13,23 @@ export const SideImg = styled.img`
   width: calc(90%);
 `;
 
-export const Content = styled.div`
+export const RightBlock = styled.div`
   width: calc(63%);
   margin: 0vh 0 0vh 0.4vw;
 `;
 
-export const Parasuccess = styled.p`
+export const HeadinigSuccess = styled.p`
   color: rgba(130, 130, 130, 1);
   font-weight: 500;
   font-size: 1.2vw;
 `;
 
-export const Div = styled.div`
+export const ContentWrapper = styled.div`
   display: flex;
   justify-content: space-between;
 `;
 
-export const Head = styled.h1`
+export const HeadingTestimonial = styled.h1`
   border-bottom: 0.8vw solid #f9c51c;
   height: 2.7vw;
   width: fit-content;
@@ -39,7 +39,7 @@ export const Head = styled.h1`
   margin: 0 0 1vw 0;
 `;
 
-export const Span4 = styled.span`
+export const Span = styled.span`
   color: rgba(40, 40, 40, 1);
   text-transform: capitalize;
   font-size: clamp(0.8rem, 1.4vw, 2rem);
@@ -48,7 +48,7 @@ export const Span4 = styled.span`
   font-size: 1.21vw;
 `;
 
-export const Para = styled.p`
+export const Content = styled.p`
   color: rgba(79, 79, 79, 1);
   text-transform: none;
   margin: 1.7vw 0 0;
@@ -59,7 +59,7 @@ export const Para = styled.p`
   word-spacing: 0.1rem;
 `;
 
-export const ArrowImg = styled.div`
+export const ArrowsWrapper = styled.div`
   display: flex;
   align-items: flex-start;
   column-gap: 1.4vw;
@@ -73,7 +73,7 @@ export const RightArrow = styled.img`
   width: clamp(2rem, 4vw, 10rem);
 `;
 
-export const Profile = styled.div`
+export const SliderWrapper = styled.div`
   background: #f1f1f1;
   border: 2px solid rgba(29, 46, 136, 0.5);
   border-radius: 16px;
@@ -86,56 +86,56 @@ export const Profile = styled.div`
   position: relative;
 `;
 
-export const OuterDiv = styled.div`
+export const SliderSubWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 3vw;
 `;
 
-export const First = styled.div`
+export const ProfileImageWrapper = styled.div`
   margin: 0 0 0 6vw;
 `;
 
-export const Girl = styled.img`
+export const ProfileImage = styled.img`
   max-width: 10vw;
 `;
 
-export const Second = styled.div``;
+export const ProfileWrapper = styled.div``;
 
-export const Jane = styled.div``;
+export const Profile = styled.div``;
 
-export const JaneName = styled.p`
+export const ProfileName = styled.p`
   font-weight: 700;
   font-size: 1.6vw;
 `;
 
-export const JanePost = styled.p`
+export const ProfilePost = styled.p`
   color: #94a3b8;
   font-size: 1.06vw;
   margin: 0.8vh 0 0 0;
 `;
 
-export const ImgStar = styled.div`
+export const StarImagesWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1.4vw 0 0 0;
 `;
 
-export const Star = styled.img`
+export const GoldenStar = styled.img`
   max-width: 2vw;
 `;
 
-export const Null = styled.img`
+export const WhiteStar = styled.img`
   max-width: 2vw;
 `;
 
-export const DesWrapper = styled.div`
+export const DescriptionWrapper = styled.div`
   display: flex;
   justify-content: center;
 `;
 
-export const Des = styled.p`
+export const Description = styled.p`
   font-size: 1vw;
   margin: 1.5vw 0 0 0;
   width: clamp(0.5rem, 27.5vw, 60rem);

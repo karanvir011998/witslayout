@@ -10,7 +10,7 @@ export const BackGroundImage = styled.div`
   padding-top: 4vh;
 `;
 
-export const HeaderWrapper = styled.div`
+export const HeaderContainer = styled.div`
   i {
     font-size: clamp(0.6rem, 1.1vw, 1.3rem);
     margin: 0 0.5vw;

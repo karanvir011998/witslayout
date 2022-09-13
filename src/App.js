@@ -1,5 +1,3 @@
 import LandingPage from "pages/homepage";
-function App() {
-  return <LandingPage />;
-}
+const App = () => <LandingPage />;
 export default App;
